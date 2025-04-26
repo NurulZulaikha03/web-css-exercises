@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Who Am I</title>
+    <!-- Link to external CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Internal CSS -->
+    <style>
+        body {
+            background-color: #f0f8ff;
+            font-family: Arial, sans-serif;
+        }
+        .education {
+            color: #333399;
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="color: darkblue;">Who Am I</h1> <!-- Inline Style -->
+
+    <p><strong>Full Name:</strong> Nurul Zulaikha Binti Mohamad Shahru Azhar</p>
+    <p><strong>Age:</strong> 22 years old</p>
+    <p class="education"><strong>Educational Background:</strong> Bachelor of New Media Communication at UniMAP</p>
+</body>
+</html>
+
+
+p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+h1 {
+    text-align: center;
+}
